@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+sudo -s
+
+yaourt i3-lock-fancy-multimonitor &&
+sleep 3
+pacman -Syu
+sleep 1
+pacman -Sy i3lock &&
+sleep 3
+pacman -Sy FontAwesome
+
