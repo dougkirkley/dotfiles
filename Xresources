@@ -1,0 +1,10 @@
+rofi.modi:              window,run,ssh
+rofi.opacity:           75
+rofi.width:             15
+rofi.lines:             5
+rofi.columns:           1
+rofi.terminal:          gnome-terminal
+rofi.ssh-client:        ssh
+rofi.ssh-command:       {terminal} -e "{ssh-client} {host}"
+
+
